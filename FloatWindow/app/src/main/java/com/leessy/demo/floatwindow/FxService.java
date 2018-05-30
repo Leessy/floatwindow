@@ -254,6 +254,9 @@ public class FxService extends Service {
         if (mFloatLayout != null) {
             //移除悬浮窗口  
             mWindowManager.removeView(mFloatLayout);
+        }
+        if (mFloatLayout != null) {
+            //移除悬浮窗口
             mWindowManager.removeView(mFloatLayout2);
         }
     }
